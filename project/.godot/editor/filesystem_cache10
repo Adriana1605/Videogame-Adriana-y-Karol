@@ -1,13 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1751310554
+::res://::1751384368
 Door.png::CompressedTexture2D/CompressedTexture2D::4133538216691876858::1751308563::1751308563::1::::<><><>0<>0<>f0d9634da6a243181d34f4b17ac8b1bc<>res://.godot/imported/Door.png-69503ba9367bcfa2ab8de46ca34fdb85.ctex::
-Escena1.tscn::PackedScene::7148758202707718816::1751310074::0::1::::<><><>0<>0<><>::uid://l0rghwsogpf4::::res://Personaje.tscn<>uid://b04iemsmnkvxt::::res://brackeys_platformer_assets/sprites/world_tileset.png<>uid://uu37ipbjkdnr::::res://Plataforma.tscn<>uid://by5k1gygfh7fi::::res://Door.png
+Escena1.tscn::PackedScene::7148758202707718816::1751383771::0::1::::<><><>0<>0<><>::uid://l0rghwsogpf4::::res://Personaje.tscn<>uid://b04iemsmnkvxt::::res://brackeys_platformer_assets/sprites/world_tileset.png<>uid://uu37ipbjkdnr::::res://Plataforma.tscn<>uid://by5k1gygfh7fi::::res://Door.png
 icon1.svg::CompressedTexture2D/CompressedTexture2D::3657450983316002924::1750364240::1750364240::1::::<><><>0<>0<>2e2357b2668cf83c1d5735f19df7f43c<>res://.godot/imported/icon1.svg-3d7d439b9a39340d65ceaaf724f0b1b5.ctex::
 icon.svg::CompressedTexture2D/CompressedTexture2D::4254923552450412434::1750363927::1750364207::1::::<><><>0<>0<>4ac475a67057b5a896f8b5f4508893bd<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-node_2d.tscn::PackedScene::2330233805190450685::1751270156::0::1::::<><><>0<>0<><>::
+node_2d.tscn::PackedScene/PackedScene::2330233805190450685::1751270156::0::1::::<><><>0<>0<><>::
 personaje.gd::GDScript/GDScript::5422867656896508046::1751296337::0::1::::<>CharacterBody2D<><>0<>0<><>::
-Personaje.tscn::PackedScene::824730029996257747::1751310071::0::1::::<><><>0<>0<><>::uid://c11qc641j4d0w::::res://brackeys_platformer_assets/sprites/knight.png
-Plataforma.tscn::PackedScene::1446822092460987671::1751310068::0::1::::<><><>0<>0<><>::uid://b8ue141htm6g2::::res://brackeys_platformer_assets/sprites/platforms.png
+Personaje.tscn::PackedScene::824730029996257747::1751313871::0::1::::<><><>0<>0<><>::uid://c11qc641j4d0w::::res://brackeys_platformer_assets/sprites/knight.png
+Plataforma.tscn::PackedScene::1446822092460987671::1751313871::0::1::::<><><>0<>0<><>::uid://b8ue141htm6g2::::res://brackeys_platformer_assets/sprites/platforms.png
+Platform.png::CompressedTexture2D::8020890977297980383::1751384368::1751384369::1::::<><><>0<>0<>b25b210f57868122a28e4288d01b2ff7<>res://.godot/imported/Platform.png-542605f8d0c23af6a571efe7214c2e6a.ctex::
 ::res://brackeys_platformer_assets/::1751270105
 LICENSE & CREDITS.txt::TextFile/TextFile::-1::1751270099::0::1::::<><><>0<>0<><>::
 ::res://brackeys_platformer_assets/fonts/::1751270143

@@ -1,24 +1,28 @@
-[gd_scene load_steps=3 format=3 uid="uid://uu37ipbjkdnr"]
+[gd_scene load_steps=5 format=3 uid="uid://uu37ipbjkdnr"]
 
-[ext_resource type="Texture2D" uid="uid://b8ue141htm6g2" path="res://brackeys_platformer_assets/sprites/platforms.png" id="1_xnlno"]
+[ext_resource type="Script" uid="uid://dsjwpw46att5c" path="res://plataforma.gd" id="1_trcrn"]
+[ext_resource type="Texture2D" uid="uid://dmjm5xlaluqap" path="res://Platform.png" id="3_y4l8l"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_trcrn"]
-size = Vector2(33, 9)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w77ho"]
+size = Vector2(48, 13)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5ii43"]
+size = Vector2(48, 16)
 
 [node name="Plataforma" type="AnimatableBody2D"]
+script = ExtResource("1_trcrn")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_xnlno")
-region_enabled = true
-region_rect = Rect2(15, 14, 36, 13.5)
+position = Vector2(0, 1)
+texture = ExtResource("3_y4l8l")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1.5, -0.5)
-shape = SubResource("RectangleShape2D_trcrn")
-one_way_collision = true
+position = Vector2(-1, -6)
+shape = SubResource("RectangleShape2D_w77ho")
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
 
-[node name="Sprite2D" type="Sprite2D" parent="Area2D"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-1, 2)
+shape = SubResource("RectangleShape2D_5ii43")
+debug_color = Color(0.9593, 0.0764322, 0.472181, 0.42)
