@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://fxnhcdafpk1e"]
+
+[ext_resource type="Script" uid="uid://c4tlbobgysdy4" path="res://canvas_layer.gd" id="1_xn0c7"]
+[ext_resource type="Texture2D" uid="uid://b1ovtccxnu8g6" path="res://brackeys_platformer_assets/coin1.png" id="2_fvavt"]
+
+[node name="Hub" type="CanvasLayer"]
+script = ExtResource("1_xn0c7")
+
+[node name="Label2" type="Label" parent="."]
+anchors_preset = -1
+offset_left = -799.0
+offset_top = -247.0
+offset_right = -775.0
+offset_bottom = -216.0
+text = "00"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = -859.0
+offset_top = -261.0
+offset_right = -813.0
+offset_bottom = -212.0
+texture = ExtResource("2_fvavt")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -814.0
+offset_top = -247.0
+offset_right = -804.0
+offset_bottom = -223.0
+text = "x"

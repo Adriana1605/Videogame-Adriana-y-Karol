@@ -1,15 +1,24 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1751384368
+::res://::1751982437
+coin.tscn::PackedScene/PackedScene::7173884084389551511::1751386623::0::1::::<><><>0<>0<><>::uid://bqkefj7wqvpk3::::res://brackeys_platformer_assets/sprites/coin.png
 Door.png::CompressedTexture2D/CompressedTexture2D::4133538216691876858::1751308563::1751308563::1::::<><><>0<>0<>f0d9634da6a243181d34f4b17ac8b1bc<>res://.godot/imported/Door.png-69503ba9367bcfa2ab8de46ca34fdb85.ctex::
-Escena1.tscn::PackedScene::7148758202707718816::1751383771::0::1::::<><><>0<>0<><>::uid://l0rghwsogpf4::::res://Personaje.tscn<>uid://b04iemsmnkvxt::::res://brackeys_platformer_assets/sprites/world_tileset.png<>uid://uu37ipbjkdnr::::res://Plataforma.tscn<>uid://by5k1gygfh7fi::::res://Door.png
+Escena1.tscn::PackedScene::7148758202707718816::1751915514::0::1::::<><><>0<>0<><>::uid://l0rghwsogpf4::::res://Personaje.tscn<>uid://b04iemsmnkvxt::::res://brackeys_platformer_assets/sprites/world_tileset.png<>uid://uu37ipbjkdnr::::res://Plataforma.tscn<>uid://by5k1gygfh7fi::::res://Door.png<>uid://iqjo0ljdestk::::res://Moneda.tscn
 icon1.svg::CompressedTexture2D/CompressedTexture2D::3657450983316002924::1750364240::1750364240::1::::<><><>0<>0<>2e2357b2668cf83c1d5735f19df7f43c<>res://.godot/imported/icon1.svg-3d7d439b9a39340d65ceaaf724f0b1b5.ctex::
 icon.svg::CompressedTexture2D/CompressedTexture2D::4254923552450412434::1750363927::1750364207::1::::<><><>0<>0<>4ac475a67057b5a896f8b5f4508893bd<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+moneda.gd::GDScript/GDScript::326414193327833792::1751387192::0::1::::<>Area2D<><>0<>0<><>::
+Moneda.tscn::PackedScene::595113577708490888::1751915514::0::1::::<><><>0<>0<><>::uid://dl5dv50qojfc2::::res://brackeys_platformer_assets/sprites/coin.png
 node_2d.tscn::PackedScene/PackedScene::2330233805190450685::1751270156::0::1::::<><><>0<>0<><>::
 personaje.gd::GDScript/GDScript::5422867656896508046::1751296337::0::1::::<>CharacterBody2D<><>0<>0<><>::
-Personaje.tscn::PackedScene::824730029996257747::1751313871::0::1::::<><><>0<>0<><>::uid://c11qc641j4d0w::::res://brackeys_platformer_assets/sprites/knight.png
-Plataforma.tscn::PackedScene::1446822092460987671::1751313871::0::1::::<><><>0<>0<><>::uid://b8ue141htm6g2::::res://brackeys_platformer_assets/sprites/platforms.png
-Platform.png::CompressedTexture2D::8020890977297980383::1751384368::1751384369::1::::<><><>0<>0<>b25b210f57868122a28e4288d01b2ff7<>res://.godot/imported/Platform.png-542605f8d0c23af6a571efe7214c2e6a.ctex::
-::res://brackeys_platformer_assets/::1751270105
+Personaje.tscn::PackedScene::824730029996257747::1751915514::0::1::::<><><>0<>0<><>::uid://c11qc641j4d0w::::res://brackeys_platformer_assets/sprites/knight.png
+Plataforma 2.gd::GDScript/GDScript::7430500504839527084::1751384824::0::1::::<>Area2D<><>0<>0<><>::
+plataforma.gd::GDScript/GDScript::8442604398822158850::1751385830::0::1::::<>AnimatableBody2D<><>0<>0<><>::
+Plataforma.tscn::PackedScene::1446822092460987671::1751915514::0::1::::<><><>0<>0<><>::uid://dsjwpw46att5c::::res://plataforma.gd<>uid://dmjm5xlaluqap::::res://Platform.png
+Platform.png::CompressedTexture2D/CompressedTexture2D::8020890977297980383::1751384368::1751384369::1::::<><><>0<>0<>b25b210f57868122a28e4288d01b2ff7<>res://.godot/imported/Platform.png-542605f8d0c23af6a571efe7214c2e6a.ctex::
+canvas_layer.gd::GDScript::6848211420107715817::1751982437::0::1::::<>CanvasLayer<><>0<>0<><>::
+canvas_layer.tscn::PackedScene::8772016419746924706::1751920319::0::1::::<><><>0<>0<><>::uid://c4tlbobgysdy4::::res://canvas_layer.gd<>uid://b1ovtccxnu8g6::::res://brackeys_platformer_assets/coin1.png
+Hub.tscn::PackedScene::399226837685232296::1751982437::0::1::::<><><>0<>0<><>::uid://c4tlbobgysdy4::::res://canvas_layer.gd<>uid://b1ovtccxnu8g6::::res://brackeys_platformer_assets/coin1.png
+::res://brackeys_platformer_assets/::1751914627
+coin1.png::CompressedTexture2D::4241541002970589375::1751914627::1751914627::1::::<><><>0<>0<>50c2f26901bc7888df71c9cfd960c2a7<>res://.godot/imported/coin1.png-f6acc97278d863df60a050ccaefccb8d.ctex::
 LICENSE & CREDITS.txt::TextFile/TextFile::-1::1751270099::0::1::::<><><>0<>0<><>::
 ::res://brackeys_platformer_assets/fonts/::1751270143
 PixelOperator8-Bold.ttf::FontFile/FontFile::5778730412058098756::1751270099::1751270143::1::::<><><>0<>0<>535300ae250deba9c112f01bcc938d7b<>res://.godot/imported/PixelOperator8-Bold.ttf-6bc312ca645f8a73b7566fe440c91148.fontdata::
@@ -23,8 +32,8 @@ hurt.wav::AudioStreamWAV/AudioStreamWAV::2770750449863862246::1751270099::175127
 jump.wav::AudioStreamWAV/AudioStreamWAV::6312598693606829484::1751270099::1751270143::1::::<><><>0<>0<>90209ed94e43080c731ebcf7ca3b54ee<>res://.godot/imported/jump.wav-83795df14be04773c71ac52f38790253.sample::
 power_up.wav::AudioStreamWAV/AudioStreamWAV::174602018534972400::1751270099::1751270143::1::::<><><>0<>0<>2ec49277cc381eaa347a06b38a1556e0<>res://.godot/imported/power_up.wav-ce7b03dc033ca36f5e16808bf13ee1d0.sample::
 tap.wav::AudioStreamWAV/AudioStreamWAV::4619368946448297243::1751270099::1751270143::1::::<><><>0<>0<>b3bb49076c8fcaaed0bd9b246d936482<>res://.godot/imported/tap.wav-b15afd3c9fb924c46e5139696fcfbc77.sample::
-::res://brackeys_platformer_assets/sprites/::1751270143
-coin.png::CompressedTexture2D/CompressedTexture2D::3530338279548503700::1751270099::1751270143::1::::<><><>0<>0<>d6265bc891743c053f903eaddf30bf62<>res://.godot/imported/coin.png-ba33385310ee462b4604b37cee7dac45.ctex::
+::res://brackeys_platformer_assets/sprites/::1751914016
+coin.png::CompressedTexture2D::7993491931436404699::1751914016::1751914016::1::::<><><>0<>0<>37944578348ce58d55a50f92a721abf4<>res://.godot/imported/coin.png-ba33385310ee462b4604b37cee7dac45.ctex::
 fruit.png::CompressedTexture2D/CompressedTexture2D::5651875306141048627::1751270099::1751270143::1::::<><><>0<>0<>e03823ec5afa86394dc0ff5241071290<>res://.godot/imported/fruit.png-8d62a17ed89431b711ec1df22b1b9592.ctex::
 knight.png::CompressedTexture2D/CompressedTexture2D::6652401841270346220::1751270099::1751270143::1::::<><><>0<>0<>46bf0b3c10cffec91370fb66d8dd8763<>res://.godot/imported/knight.png-1438adb88511585191a11dbd3e40e6ed.ctex::
 platforms.png::CompressedTexture2D/CompressedTexture2D::4744230941127973459::1751270099::1751270143::1::::<><><>0<>0<>94cecd8c37a4fe9e284bb0c34dcec97b<>res://.godot/imported/platforms.png-773f98c154d5c3b035ad5e3aa72d67ff.ctex::

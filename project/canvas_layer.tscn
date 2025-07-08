@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://dw8h3gefqjc6u"]
+
+[ext_resource type="Script" uid="uid://c4tlbobgysdy4" path="res://canvas_layer.gd" id="1_tg4cr"]
+[ext_resource type="Texture2D" uid="uid://b1ovtccxnu8g6" path="res://brackeys_platformer_assets/coin1.png" id="2_37rai"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource("1_tg4cr")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 46.0
+offset_bottom = 49.0
+texture = ExtResource("2_37rai")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 59.0
+offset_top = 10.0
+offset_right = 92.0
+offset_bottom = 33.0
+text = "00"
+
+[node name="ContadorMonedas" type="Label" parent="."]
+offset_left = 45.0
+offset_top = 10.0
+offset_right = 68.0
+offset_bottom = 33.0
+text = "X"

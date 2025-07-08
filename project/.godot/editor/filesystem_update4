@@ -1,7 +1,9 @@
 res://Escena1.tscn
-res://Plataforma.tscn
-res://Plataforma 2.gd
-res://plataforma.gd
 res://Personaje.tscn
-res://coin.tscn
+res://Plataforma.tscn
 res://Moneda.tscn
+res://canvas_layer.gd
+res://Hub.tscn
+res://scene/Hub.tscn
+res://plataforma.gd
+res://node.gd
